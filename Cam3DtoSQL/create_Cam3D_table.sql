@@ -1,0 +1,10 @@
+﻿CREATE TABLE Cam3DLog (
+    ID INT IDENTITY(1,1) PRIMARY KEY,
+    PartName NVARCHAR(255) NOT NULL,
+    ImportDate DATETIME NOT NULL,
+    FileLocation NVARCHAR(500) NOT NULL,
+    ImportTime FLOAT NOT NULL,
+    ConvertTime NVARCHAR(255) NULL,
+    MaterialXMLPath NVARCHAR(500) NULL,
+    
+);
